@@ -39,15 +39,15 @@ Gotham Pizza delivery orders
    </div>
   </div>
 
-  <div>
+  <!-- <div>
     <label class="desc" id="title4" for="Field4">
       Special Instructions:
     </label>
 
     <div>
-      <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+      <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="10" tabindex="2"></textarea>
     </div>
-  </div>
+  </div> -->
 
   <div>
     <fieldset>
@@ -57,18 +57,18 @@ Gotham Pizza delivery orders
       </legend>
 
       <div>
-      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
+      	<input id="sizes" name="Field5" type="hidden" value="">
       	<div>
-      		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
-      		<label class="choice" for="Field5_0">Small-$10</label>
+      		<input id="sm" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+      		<label class="size" for="Field5_0">Small-$10</label>
       	</div>
         <div>
-        	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
-        	<label class="choice" for="Field5_1">Medium-$15</label>
+        	<input id="md" name="Field5" type="radio" value="Second Choice" tabindex="6">
+        	<label class="size" for="Field5_1">Medium-$15</label>
         </div>
         <div>
-        	<input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
-        	<label class="choice" for="Field5_2">Large-$20</label>
+        	<input id="lg" name="Field5" type="radio" value="Third Choice" tabindex="7">
+        	<label class="size" for="Field5_2">Large-$20</label>
         </div>
       </div>
     </fieldset>
@@ -76,20 +76,20 @@ Gotham Pizza delivery orders
 
   <div>
     <fieldset>
-      <legend id="title6" class="desc">
+      <legend id="toppings" class="desc">
      What toppings for you?      </legend>
       <div>
       <div>
-      	<input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
-      	<label class="choice" for="Field6">Tofu</label>
+      	<input id="tofu" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+      	<label class="topping" for="Field6">Tofu</label>
       </div>
       <div>
-      	<input id="Field7" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
-      	<label class="choice" for="Field7">Seitan</label>
+      	<input id="seitan" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
+      	<label class="topping" for="Field7">Seitan</label>
       </div>
       <div>
-      	<input id="Field8" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
-      	<label class="choice" for="Field8">Potatoes</label>
+      	<input id="potatoes" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
+      	<label class="topping" for="Field8">Potatoes</label>
       </span>
       </div>
     </fieldset>
@@ -99,7 +99,7 @@ Gotham Pizza delivery orders
     <label class="desc" id="title106" for="Field106">
 Cheese type:    </label>
     <div>
-    <select id="Field106" name="Field106" class="field select medium" tabindex="11">
+    <select id="cheese" name="cheese" class="field select medium" tabindex="11">
       <option value="First Choice">Vegan</option>
       <option value="Second Choice">Cow</option>
       <option value="Third Choice">Human</option>

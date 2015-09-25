@@ -21,7 +21,7 @@ Pizza.prototype.getPrice = function() {
 	} else {
 		total += 10;
 	}
-  
+
 	for (var i = 0; i < this.toppings.length; i++) {
 		 {
 				total += 1;
